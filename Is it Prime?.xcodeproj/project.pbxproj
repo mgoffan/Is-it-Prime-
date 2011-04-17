@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF2D647135B2CCF00E2B406 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2D646135B2CCF00E2B406 /* UIKit.framework */; };
+		5BF2D649135B2CCF00E2B406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2D648135B2CCF00E2B406 /* Foundation.framework */; };
+		5BF2D64B135B2CCF00E2B406 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2D64A135B2CCF00E2B406 /* CoreGraphics.framework */; };
+		5BF2D651135B2CD000E2B406 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D64F135B2CD000E2B406 /* InfoPlist.strings */; };
+		5BF2D654135B2CD000E2B406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D653135B2CD000E2B406 /* main.m */; };
+		5BF2D657135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D656135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m */; };
+		5BF2D65A135B2CD000E2B406 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D658135B2CD000E2B406 /* MainWindow.xib */; };
+		5BF2D65D135B2CD000E2B406 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D65C135B2CD000E2B406 /* FirstViewController.m */; };
+		5BF2D660135B2CD000E2B406 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D65F135B2CD000E2B406 /* SecondViewController.m */; };
+		5BF2D663135B2CD100E2B406 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D661135B2CD100E2B406 /* FirstView.xib */; };
+		5BF2D666135B2CD100E2B406 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D664135B2CD100E2B406 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BF2D642135B2CCF00E2B406 /* Is it Prime?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is it Prime?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF2D646135B2CCF00E2B406 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BF2D648135B2CCF00E2B406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BF2D64A135B2CCF00E2B406 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BF2D64E135B2CD000E2B406 /* Is it Prime?-Info.plist */ = {isa = PBXFileReference; path = "Is it Prime?-Info.plist"; sourceTree = "<group>"; };
+		5BF2D650135B2CD000E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BF2D652135B2CD000E2B406 /* Is it Prime?-Prefix.pch */ = {isa = PBXFileReference; path = "Is it Prime?-Prefix.pch"; sourceTree = "<group>"; };
+		5BF2D653135B2CD000E2B406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BF2D655135B2CD000E2B406 /* Is_it_Prime_AppDelegate.h */ = {isa = PBXFileReference; path = Is_it_Prime_AppDelegate.h; sourceTree = "<group>"; };
+		5BF2D656135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Is_it_Prime_AppDelegate.m; sourceTree = "<group>"; };
+		5BF2D659135B2CD000E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5BF2D65B135B2CD000E2B406 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		5BF2D65C135B2CD000E2B406 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5BF2D65E135B2CD000E2B406 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		5BF2D65F135B2CD000E2B406 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5BF2D662135B2CD100E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		5BF2D665135B2CD100E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF2D63F135B2CCF00E2B406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF2D647135B2CCF00E2B406 /* UIKit.framework in Frameworks */,
+				5BF2D649135B2CCF00E2B406 /* Foundation.framework in Frameworks */,
+				5BF2D64B135B2CCF00E2B406 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF2D637135B2CCF00E2B406 = {
+			isa = PBXGroup;
+			children = (
+				5BF2D64C135B2CCF00E2B406 /* Is it Prime? */,
+				5BF2D645135B2CCF00E2B406 /* Frameworks */,
+				5BF2D643135B2CCF00E2B406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF2D643135B2CCF00E2B406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D642135B2CCF00E2B406 /* Is it Prime?.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF2D645135B2CCF00E2B406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D646135B2CCF00E2B406 /* UIKit.framework */,
+				5BF2D648135B2CCF00E2B406 /* Foundation.framework */,
+				5BF2D64A135B2CCF00E2B406 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BF2D64C135B2CCF00E2B406 /* Is it Prime? */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D655135B2CD000E2B406 /* Is_it_Prime_AppDelegate.h */,
+				5BF2D656135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m */,
+				5BF2D658135B2CD000E2B406 /* MainWindow.xib */,
+				5BF2D65B135B2CD000E2B406 /* FirstViewController.h */,
+				5BF2D65C135B2CD000E2B406 /* FirstViewController.m */,
+				5BF2D65E135B2CD000E2B406 /* SecondViewController.h */,
+				5BF2D65F135B2CD000E2B406 /* SecondViewController.m */,
+				5BF2D661135B2CD100E2B406 /* FirstView.xib */,
+				5BF2D664135B2CD100E2B406 /* SecondView.xib */,
+				5BF2D64D135B2CD000E2B406 /* Supporting Files */,
+			);
+			path = "Is it Prime?";
+			sourceTree = "<group>";
+		};
+		5BF2D64D135B2CD000E2B406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D64E135B2CD000E2B406 /* Is it Prime?-Info.plist */,
+				5BF2D64F135B2CD000E2B406 /* InfoPlist.strings */,
+				5BF2D652135B2CD000E2B406 /* Is it Prime?-Prefix.pch */,
+				5BF2D653135B2CD000E2B406 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF2D641135B2CCF00E2B406 /* Is it Prime? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF2D669135B2CD100E2B406 /* Build configuration list for PBXNativeTarget "Is it Prime?" */;
+			buildPhases = (
+				5BF2D63E135B2CCF00E2B406 /* Sources */,
+				5BF2D63F135B2CCF00E2B406 /* Frameworks */,
+				5BF2D640135B2CCF00E2B406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Is it Prime?";
+			productName = "Is it Prime?";
+			productReference = 5BF2D642135B2CCF00E2B406 /* Is it Prime?.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF2D639135B2CCF00E2B406 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5BF2D63C135B2CCF00E2B406 /* Build configuration list for PBXProject "Is it Prime?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BF2D637135B2CCF00E2B406;
+			productRefGroup = 5BF2D643135B2CCF00E2B406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF2D641135B2CCF00E2B406 /* Is it Prime? */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF2D640135B2CCF00E2B406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF2D651135B2CD000E2B406 /* InfoPlist.strings in Resources */,
+				5BF2D65A135B2CD000E2B406 /* MainWindow.xib in Resources */,
+				5BF2D663135B2CD100E2B406 /* FirstView.xib in Resources */,
+				5BF2D666135B2CD100E2B406 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF2D63E135B2CCF00E2B406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF2D654135B2CD000E2B406 /* main.m in Sources */,
+				5BF2D657135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m in Sources */,
+				5BF2D65D135B2CD000E2B406 /* FirstViewController.m in Sources */,
+				5BF2D660135B2CD000E2B406 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BF2D64F135B2CD000E2B406 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF2D650135B2CD000E2B406 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BF2D658135B2CD000E2B406 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF2D659135B2CD000E2B406 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5BF2D661135B2CD100E2B406 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF2D662135B2CD100E2B406 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		5BF2D664135B2CD100E2B406 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF2D665135B2CD100E2B406 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF2D667135B2CD100E2B406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BF2D668135B2CD100E2B406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5BF2D66A135B2CD100E2B406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Is it Prime?/Is it Prime?-Prefix.pch";
+				INFOPLIST_FILE = "Is it Prime?/Is it Prime?-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BF2D66B135B2CD100E2B406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Is it Prime?/Is it Prime?-Prefix.pch";
+				INFOPLIST_FILE = "Is it Prime?/Is it Prime?-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF2D63C135B2CCF00E2B406 /* Build configuration list for PBXProject "Is it Prime?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF2D667135B2CD100E2B406 /* Debug */,
+				5BF2D668135B2CD100E2B406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF2D669135B2CD100E2B406 /* Build configuration list for PBXNativeTarget "Is it Prime?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF2D66A135B2CD100E2B406 /* Debug */,
+				5BF2D66B135B2CD100E2B406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF2D639135B2CCF00E2B406 /* Project object */;
+}
