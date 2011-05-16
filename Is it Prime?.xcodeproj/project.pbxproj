@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B73F532136D25D6006D4287 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B73F531136D25D6006D4287 /* SecondViewController.m */; };
 		5BF2D647135B2CCF00E2B406 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2D646135B2CCF00E2B406 /* UIKit.framework */; };
 		5BF2D649135B2CCF00E2B406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2D648135B2CCF00E2B406 /* Foundation.framework */; };
 		5BF2D64B135B2CCF00E2B406 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2D64A135B2CCF00E2B406 /* CoreGraphics.framework */; };
@@ -15,29 +16,70 @@
 		5BF2D657135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D656135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m */; };
 		5BF2D65A135B2CD000E2B406 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D658135B2CD000E2B406 /* MainWindow.xib */; };
 		5BF2D65D135B2CD000E2B406 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D65C135B2CD000E2B406 /* FirstViewController.m */; };
-		5BF2D660135B2CD000E2B406 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D65F135B2CD000E2B406 /* SecondViewController.m */; };
 		5BF2D663135B2CD100E2B406 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D661135B2CD100E2B406 /* FirstView.xib */; };
 		5BF2D666135B2CD100E2B406 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D664135B2CD100E2B406 /* SecondView.xib */; };
+		5BF2D675135B2EFB00E2B406 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2D673135B2EFB00E2B406 /* ThirdViewController.m */; };
+		5BF2D676135B2EFB00E2B406 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D674135B2EFB00E2B406 /* ThirdView.xib */; };
+		5BF5BBF5136DC89000F55F85 /* From2toX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BBF4136DC89000F55F85 /* From2toX.xib */; };
+		5BF5BBF9136DC8C900F55F85 /* From2toX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BBF8136DC8C900F55F85 /* From2toX.m */; };
+		5BF5BBFD136DD0EA00F55F85 /* FromXToX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BBFC136DD0EA00F55F85 /* FromXToX.xib */; };
+		5BF5BC00136DD18300F55F85 /* FromXToX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BBFF136DD18300F55F85 /* FromXToX.m */; };
+		5BF5BC02136DD3B800F55F85 /* First50.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC01136DD3B800F55F85 /* First50.xib */; };
+		5BF5BC04136DD4A700F55F85 /* First100.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC03136DD4A700F55F85 /* First100.xib */; };
+		5BF5BC06136DD50800F55F85 /* First1000.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC05136DD50800F55F85 /* First1000.xib */; };
+		5BF5BC08136DD51900F55F85 /* First10000.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC07136DD51800F55F85 /* First10000.xib */; };
+		5BF5BC0B136DD5FD00F55F85 /* First50.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BC0A136DD5FD00F55F85 /* First50.m */; };
+		5BF5BC0E136DD61800F55F85 /* First100.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BC0D136DD61800F55F85 /* First100.m */; };
+		5BF5BC11136DD62500F55F85 /* First1000.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BC10136DD62500F55F85 /* First1000.m */; };
+		5BF5BC14136DD63200F55F85 /* First10000.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BC13136DD63200F55F85 /* First10000.m */; };
+		5BF5BC16136DE59200F55F85 /* hud.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC15136DE59200F55F85 /* hud.png */; };
+		5BF5BC18136DE5B800F55F85 /* HUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC17136DE5B800F55F85 /* HUD.xib */; };
+		5BF5BC1B136DE73300F55F85 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BC1A136DE73200F55F85 /* HUDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B73F530136D25D6006D4287 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B73F531136D25D6006D4287 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5BF2D642135B2CCF00E2B406 /* Is it Prime?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is it Prime?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF2D646135B2CCF00E2B406 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BF2D648135B2CCF00E2B406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BF2D64A135B2CCF00E2B406 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5BF2D64E135B2CD000E2B406 /* Is it Prime?-Info.plist */ = {isa = PBXFileReference; path = "Is it Prime?-Info.plist"; sourceTree = "<group>"; };
+		5BF2D64E135B2CD000E2B406 /* Is it Prime?-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Is it Prime?-Info.plist"; sourceTree = "<group>"; };
 		5BF2D650135B2CD000E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5BF2D652135B2CD000E2B406 /* Is it Prime?-Prefix.pch */ = {isa = PBXFileReference; path = "Is it Prime?-Prefix.pch"; sourceTree = "<group>"; };
+		5BF2D652135B2CD000E2B406 /* Is it Prime?-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Is it Prime?-Prefix.pch"; sourceTree = "<group>"; };
 		5BF2D653135B2CD000E2B406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BF2D655135B2CD000E2B406 /* Is_it_Prime_AppDelegate.h */ = {isa = PBXFileReference; path = Is_it_Prime_AppDelegate.h; sourceTree = "<group>"; };
+		5BF2D655135B2CD000E2B406 /* Is_it_Prime_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Is_it_Prime_AppDelegate.h; sourceTree = "<group>"; };
 		5BF2D656135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Is_it_Prime_AppDelegate.m; sourceTree = "<group>"; };
 		5BF2D659135B2CD000E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5BF2D65B135B2CD000E2B406 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		5BF2D65B135B2CD000E2B406 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5BF2D65C135B2CD000E2B406 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5BF2D65E135B2CD000E2B406 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		5BF2D65F135B2CD000E2B406 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5BF2D662135B2CD100E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		5BF2D665135B2CD100E2B406 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		5BF2D672135B2EFB00E2B406 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5BF2D673135B2EFB00E2B406 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5BF2D674135B2EFB00E2B406 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		5BF5BBF4136DC89000F55F85 /* From2toX.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = From2toX.xib; sourceTree = "<group>"; };
+		5BF5BBF7136DC8C900F55F85 /* From2toX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = From2toX.h; sourceTree = "<group>"; };
+		5BF5BBF8136DC8C900F55F85 /* From2toX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = From2toX.m; sourceTree = "<group>"; };
+		5BF5BBFC136DD0EA00F55F85 /* FromXToX.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FromXToX.xib; sourceTree = "<group>"; };
+		5BF5BBFE136DD18300F55F85 /* FromXToX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromXToX.h; sourceTree = "<group>"; };
+		5BF5BBFF136DD18300F55F85 /* FromXToX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromXToX.m; sourceTree = "<group>"; };
+		5BF5BC01136DD3B800F55F85 /* First50.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First50.xib; sourceTree = "<group>"; };
+		5BF5BC03136DD4A700F55F85 /* First100.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First100.xib; sourceTree = "<group>"; };
+		5BF5BC05136DD50800F55F85 /* First1000.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First1000.xib; sourceTree = "<group>"; };
+		5BF5BC07136DD51800F55F85 /* First10000.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First10000.xib; sourceTree = "<group>"; };
+		5BF5BC09136DD5FD00F55F85 /* First50.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First50.h; sourceTree = "<group>"; };
+		5BF5BC0A136DD5FD00F55F85 /* First50.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First50.m; sourceTree = "<group>"; };
+		5BF5BC0C136DD61800F55F85 /* First100.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First100.h; sourceTree = "<group>"; };
+		5BF5BC0D136DD61800F55F85 /* First100.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First100.m; sourceTree = "<group>"; };
+		5BF5BC0F136DD62500F55F85 /* First1000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First1000.h; sourceTree = "<group>"; };
+		5BF5BC10136DD62500F55F85 /* First1000.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First1000.m; sourceTree = "<group>"; };
+		5BF5BC12136DD63100F55F85 /* First10000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First10000.h; sourceTree = "<group>"; };
+		5BF5BC13136DD63200F55F85 /* First10000.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First10000.m; sourceTree = "<group>"; };
+		5BF5BC15136DE59200F55F85 /* hud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hud.png; sourceTree = "<group>"; };
+		5BF5BC17136DE5B800F55F85 /* HUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HUD.xib; sourceTree = "<group>"; };
+		5BF5BC19136DE73100F55F85 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		5BF5BC1A136DE73200F55F85 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +126,13 @@
 		5BF2D64C135B2CCF00E2B406 /* Is it Prime? */ = {
 			isa = PBXGroup;
 			children = (
-				5BF2D655135B2CD000E2B406 /* Is_it_Prime_AppDelegate.h */,
-				5BF2D656135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m */,
-				5BF2D658135B2CD000E2B406 /* MainWindow.xib */,
-				5BF2D65B135B2CD000E2B406 /* FirstViewController.h */,
-				5BF2D65C135B2CD000E2B406 /* FirstViewController.m */,
-				5BF2D65E135B2CD000E2B406 /* SecondViewController.h */,
-				5BF2D65F135B2CD000E2B406 /* SecondViewController.m */,
-				5BF2D661135B2CD100E2B406 /* FirstView.xib */,
-				5BF2D664135B2CD100E2B406 /* SecondView.xib */,
+				5BF5BC19136DE73100F55F85 /* HUDViewController.h */,
+				5BF5BC1A136DE73200F55F85 /* HUDViewController.m */,
+				5BF2D66E135B2D2E00E2B406 /* First View */,
+				5BF2D66F135B2D4200E2B406 /* Second View */,
+				5BF2D671135B2EB400E2B406 /* Third View */,
+				5BF2D66D135B2D0F00E2B406 /* App Delegate */,
+				5BF2D670135B2D5E00E2B406 /* NIB */,
 				5BF2D64D135B2CD000E2B406 /* Supporting Files */,
 			);
 			path = "Is it Prime?";
@@ -101,12 +141,95 @@
 		5BF2D64D135B2CD000E2B406 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BF5BC15136DE59200F55F85 /* hud.png */,
 				5BF2D64E135B2CD000E2B406 /* Is it Prime?-Info.plist */,
 				5BF2D64F135B2CD000E2B406 /* InfoPlist.strings */,
 				5BF2D652135B2CD000E2B406 /* Is it Prime?-Prefix.pch */,
 				5BF2D653135B2CD000E2B406 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BF2D66D135B2D0F00E2B406 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D655135B2CD000E2B406 /* Is_it_Prime_AppDelegate.h */,
+				5BF2D656135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		5BF2D66E135B2D2E00E2B406 /* First View */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D65B135B2CD000E2B406 /* FirstViewController.h */,
+				5BF2D65C135B2CD000E2B406 /* FirstViewController.m */,
+			);
+			name = "First View";
+			sourceTree = "<group>";
+		};
+		5BF2D66F135B2D4200E2B406 /* Second View */ = {
+			isa = PBXGroup;
+			children = (
+				5B73F530136D25D6006D4287 /* SecondViewController.h */,
+				5B73F531136D25D6006D4287 /* SecondViewController.m */,
+				5BF5BBFA136DCD9C00F55F85 /* SubViews */,
+			);
+			name = "Second View";
+			sourceTree = "<group>";
+		};
+		5BF2D670135B2D5E00E2B406 /* NIB */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D658135B2CD000E2B406 /* MainWindow.xib */,
+				5BF2D661135B2CD100E2B406 /* FirstView.xib */,
+				5BF2D664135B2CD100E2B406 /* SecondView.xib */,
+				5BF5BBFB136DCFC100F55F85 /* SecondView SubViews */,
+				5BF2D674135B2EFB00E2B406 /* ThirdView.xib */,
+				5BF5BC17136DE5B800F55F85 /* HUD.xib */,
+			);
+			name = NIB;
+			sourceTree = "<group>";
+		};
+		5BF2D671135B2EB400E2B406 /* Third View */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2D672135B2EFB00E2B406 /* ThirdViewController.h */,
+				5BF2D673135B2EFB00E2B406 /* ThirdViewController.m */,
+			);
+			name = "Third View";
+			sourceTree = "<group>";
+		};
+		5BF5BBFA136DCD9C00F55F85 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				5BF5BBF7136DC8C900F55F85 /* From2toX.h */,
+				5BF5BBF8136DC8C900F55F85 /* From2toX.m */,
+				5BF5BBFE136DD18300F55F85 /* FromXToX.h */,
+				5BF5BBFF136DD18300F55F85 /* FromXToX.m */,
+				5BF5BC09136DD5FD00F55F85 /* First50.h */,
+				5BF5BC0A136DD5FD00F55F85 /* First50.m */,
+				5BF5BC0C136DD61800F55F85 /* First100.h */,
+				5BF5BC0D136DD61800F55F85 /* First100.m */,
+				5BF5BC0F136DD62500F55F85 /* First1000.h */,
+				5BF5BC10136DD62500F55F85 /* First1000.m */,
+				5BF5BC12136DD63100F55F85 /* First10000.h */,
+				5BF5BC13136DD63200F55F85 /* First10000.m */,
+			);
+			name = SubViews;
+			sourceTree = "<group>";
+		};
+		5BF5BBFB136DCFC100F55F85 /* SecondView SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				5BF5BBF4136DC89000F55F85 /* From2toX.xib */,
+				5BF5BBFC136DD0EA00F55F85 /* FromXToX.xib */,
+				5BF5BC01136DD3B800F55F85 /* First50.xib */,
+				5BF5BC03136DD4A700F55F85 /* First100.xib */,
+				5BF5BC05136DD50800F55F85 /* First1000.xib */,
+				5BF5BC07136DD51800F55F85 /* First10000.xib */,
+			);
+			name = "SecondView SubViews";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +283,15 @@
 				5BF2D65A135B2CD000E2B406 /* MainWindow.xib in Resources */,
 				5BF2D663135B2CD100E2B406 /* FirstView.xib in Resources */,
 				5BF2D666135B2CD100E2B406 /* SecondView.xib in Resources */,
+				5BF2D676135B2EFB00E2B406 /* ThirdView.xib in Resources */,
+				5BF5BBF5136DC89000F55F85 /* From2toX.xib in Resources */,
+				5BF5BBFD136DD0EA00F55F85 /* FromXToX.xib in Resources */,
+				5BF5BC02136DD3B800F55F85 /* First50.xib in Resources */,
+				5BF5BC04136DD4A700F55F85 /* First100.xib in Resources */,
+				5BF5BC06136DD50800F55F85 /* First1000.xib in Resources */,
+				5BF5BC08136DD51900F55F85 /* First10000.xib in Resources */,
+				5BF5BC16136DE59200F55F85 /* hud.png in Resources */,
+				5BF5BC18136DE5B800F55F85 /* HUD.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +305,15 @@
 				5BF2D654135B2CD000E2B406 /* main.m in Sources */,
 				5BF2D657135B2CD000E2B406 /* Is_it_Prime_AppDelegate.m in Sources */,
 				5BF2D65D135B2CD000E2B406 /* FirstViewController.m in Sources */,
-				5BF2D660135B2CD000E2B406 /* SecondViewController.m in Sources */,
+				5BF2D675135B2EFB00E2B406 /* ThirdViewController.m in Sources */,
+				5B73F532136D25D6006D4287 /* SecondViewController.m in Sources */,
+				5BF5BBF9136DC8C900F55F85 /* From2toX.m in Sources */,
+				5BF5BC00136DD18300F55F85 /* FromXToX.m in Sources */,
+				5BF5BC0B136DD5FD00F55F85 /* First50.m in Sources */,
+				5BF5BC0E136DD61800F55F85 /* First100.m in Sources */,
+				5BF5BC11136DD62500F55F85 /* First1000.m in Sources */,
+				5BF5BC14136DD63200F55F85 /* First10000.m in Sources */,
+				5BF5BC1B136DE73300F55F85 /* HUDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +395,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Is it Prime?/Is it Prime?-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Is it Prime?/Is it Prime?-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -268,6 +409,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Is it Prime?/Is it Prime?-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Is it Prime?/Is it Prime?-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
@@ -294,6 +436,7 @@
 				5BF2D66B135B2CD100E2B406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
