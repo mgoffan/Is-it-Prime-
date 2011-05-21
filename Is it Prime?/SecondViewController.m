@@ -9,7 +9,6 @@
 #import "SecondViewController.h"
 #import "SecondViewListToController.h"
 #import "From2toX.h"
-#import "FromXToX.h"
 #import "First50.h"
 #import "First100.h"
 #import "First1000.h"
@@ -23,7 +22,7 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.navigationController.view];
-    optionsArray = [[NSArray alloc] initWithObjects:@"Primes from 2 to x", @"Primes from x to x", @"First 50 Primes", @"First 100 Primes", @"First 1000 Primes", @"First 10000 Primes",nil];
+    optionsArray = [[NSArray alloc] initWithObjects:@"Primes from 2 to x", @"First 50 Primes", @"First 100 Primes", @"First 1000 Primes", @"First 10000 Primes",nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -128,18 +127,15 @@
             detailViewController = [[From2toX alloc] initWithNibName:@"From2ToX" bundle:[NSBundle mainBundle]];
             break;
         case 1:
-            detailViewController = [[FromXToX alloc] initWithNibName:@"FromXToX" bundle:[NSBundle mainBundle]];
-            break;
-        case 2:
             detailViewController = [[First50 alloc] initWithNibName:@"First50" bundle:[NSBundle mainBundle]];
             break;
-        case 3:
+        case 2:
             detailViewController = [[First100 alloc] initWithNibName:@"First100" bundle:[NSBundle mainBundle]];
             break;
-        case 4:
+        case 3:
             detailViewController = [[First1000 alloc] initWithNibName:@"First1000" bundle:[NSBundle mainBundle]];
             break;
-        case 5:
+        case 4:
             detailViewController = [[First10000 alloc] initWithNibName:@"First10000" bundle:[NSBundle mainBundle]];
             break;
         default:

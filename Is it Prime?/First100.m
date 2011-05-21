@@ -28,8 +28,11 @@ HUDViewController *hVController;
     return self;
 }
 
-- (void)dealloc
-{
+- (void)dealloc{
+    [myTableView release];
+    [primesArray release];
+    [hVController release];
+    
     [super dealloc];
 }
 
@@ -43,37 +46,44 @@ HUDViewController *hVController;
 
 #pragma mark - Data management
 
-- (IBAction)calc:(id)sender {
-    [self.view addSubview:hVController.view];
-    NSOperationQueue *queue = [NSOperationQueue new];
-    NSInvocationOperation *opereration = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(doCalc) object:nil];
-    [queue addOperation:opereration];
-    [opereration release];
+- (void)finishProcessing {
+    [hVController.view removeFromSuperview];
+}
+
+- (void)call {
+    [NSThread detachNewThreadSelector:@selector(doCalc) toTarget:self withObject:nil];
 }
 
 - (void)doCalc {
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    
     [primesArray removeAllObjects];
     NSInteger counter = 0;
 	NSInteger primenumber, d;
     BOOL isPrime;
     
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    
-    for (primenumber = 2; counter < 100; ++primenumber) {
+    for (primenumber = 1; counter < 100; primenumber+=2) {
         isPrime = YES;
-        for (d = 2; d < primenumber/2+1; ++d) {
+        for (d = 2; d < primenumber/4+2; ++d) {
             if (primenumber % d == 0) isPrime = NO;
         }
         if (isPrime) {
-            counter++;
+            ++counter;
             [primesArray addObject:[NSNumber numberWithInteger:primenumber]];
         }
     }
     [primesArray addObject:[NSString string]];
-    [pool drain];
     
     [hVController.view removeFromSuperview];
     [myTableView performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:YES];
+    [self performSelectorOnMainThread:@selector(finishProcessing) withObject:nil waitUntilDone:NO];
+    
+    [pool drain];
+}
+
+- (IBAction)calc:(id)sender {
+    [self.view addSubview:hVController.view];
+    [self performSelectorOnMainThread:@selector(call) withObject:nil waitUntilDone:YES];
 }
 
 #pragma mark - TableView methods
@@ -86,7 +96,12 @@ HUDViewController *hVController;
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%@",[primesArray objectAtIndex:indexPath.row]];
+    if ([[NSString stringWithFormat:@"%@",[primesArray objectAtIndex:indexPath.row]] isEqualToString:@"1"]) {
+        cell.textLabel.text = @"2";
+    }
+    else {
+        cell.textLabel.text = [NSString stringWithFormat:@"%@",[primesArray objectAtIndex:indexPath.row]];
+    }
     
     return cell;
 }

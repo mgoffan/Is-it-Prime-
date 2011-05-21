@@ -22,8 +22,6 @@
 		5BF2D676135B2EFB00E2B406 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF2D674135B2EFB00E2B406 /* ThirdView.xib */; };
 		5BF5BBF5136DC89000F55F85 /* From2toX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BBF4136DC89000F55F85 /* From2toX.xib */; };
 		5BF5BBF9136DC8C900F55F85 /* From2toX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BBF8136DC8C900F55F85 /* From2toX.m */; };
-		5BF5BBFD136DD0EA00F55F85 /* FromXToX.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BBFC136DD0EA00F55F85 /* FromXToX.xib */; };
-		5BF5BC00136DD18300F55F85 /* FromXToX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5BBFF136DD18300F55F85 /* FromXToX.m */; };
 		5BF5BC02136DD3B800F55F85 /* First50.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC01136DD3B800F55F85 /* First50.xib */; };
 		5BF5BC04136DD4A700F55F85 /* First100.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC03136DD4A700F55F85 /* First100.xib */; };
 		5BF5BC06136DD50800F55F85 /* First1000.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF5BC05136DD50800F55F85 /* First1000.xib */; };
@@ -61,9 +59,6 @@
 		5BF5BBF4136DC89000F55F85 /* From2toX.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = From2toX.xib; sourceTree = "<group>"; };
 		5BF5BBF7136DC8C900F55F85 /* From2toX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = From2toX.h; sourceTree = "<group>"; };
 		5BF5BBF8136DC8C900F55F85 /* From2toX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = From2toX.m; sourceTree = "<group>"; };
-		5BF5BBFC136DD0EA00F55F85 /* FromXToX.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FromXToX.xib; sourceTree = "<group>"; };
-		5BF5BBFE136DD18300F55F85 /* FromXToX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromXToX.h; sourceTree = "<group>"; };
-		5BF5BBFF136DD18300F55F85 /* FromXToX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromXToX.m; sourceTree = "<group>"; };
 		5BF5BC01136DD3B800F55F85 /* First50.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First50.xib; sourceTree = "<group>"; };
 		5BF5BC03136DD4A700F55F85 /* First100.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First100.xib; sourceTree = "<group>"; };
 		5BF5BC05136DD50800F55F85 /* First1000.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First1000.xib; sourceTree = "<group>"; };
@@ -205,8 +200,6 @@
 			children = (
 				5BF5BBF7136DC8C900F55F85 /* From2toX.h */,
 				5BF5BBF8136DC8C900F55F85 /* From2toX.m */,
-				5BF5BBFE136DD18300F55F85 /* FromXToX.h */,
-				5BF5BBFF136DD18300F55F85 /* FromXToX.m */,
 				5BF5BC09136DD5FD00F55F85 /* First50.h */,
 				5BF5BC0A136DD5FD00F55F85 /* First50.m */,
 				5BF5BC0C136DD61800F55F85 /* First100.h */,
@@ -223,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				5BF5BBF4136DC89000F55F85 /* From2toX.xib */,
-				5BF5BBFC136DD0EA00F55F85 /* FromXToX.xib */,
 				5BF5BC01136DD3B800F55F85 /* First50.xib */,
 				5BF5BC03136DD4A700F55F85 /* First100.xib */,
 				5BF5BC05136DD50800F55F85 /* First1000.xib */,
@@ -285,7 +277,6 @@
 				5BF2D666135B2CD100E2B406 /* SecondView.xib in Resources */,
 				5BF2D676135B2EFB00E2B406 /* ThirdView.xib in Resources */,
 				5BF5BBF5136DC89000F55F85 /* From2toX.xib in Resources */,
-				5BF5BBFD136DD0EA00F55F85 /* FromXToX.xib in Resources */,
 				5BF5BC02136DD3B800F55F85 /* First50.xib in Resources */,
 				5BF5BC04136DD4A700F55F85 /* First100.xib in Resources */,
 				5BF5BC06136DD50800F55F85 /* First1000.xib in Resources */,
@@ -308,7 +299,6 @@
 				5BF2D675135B2EFB00E2B406 /* ThirdViewController.m in Sources */,
 				5B73F532136D25D6006D4287 /* SecondViewController.m in Sources */,
 				5BF5BBF9136DC8C900F55F85 /* From2toX.m in Sources */,
-				5BF5BC00136DD18300F55F85 /* FromXToX.m in Sources */,
 				5BF5BC0B136DD5FD00F55F85 /* First50.m in Sources */,
 				5BF5BC0E136DD61800F55F85 /* First100.m in Sources */,
 				5BF5BC11136DD62500F55F85 /* First1000.m in Sources */,
