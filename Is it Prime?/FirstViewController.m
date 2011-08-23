@@ -211,10 +211,10 @@ loop:;
 - (void)dealloc {
     [super dealloc];
     
-    [resultsArray release];
-    [dividersArray release];
-    [favsArray release];
-    [actionSheet release];
+//    [resultsArray release];
+//    [dividersArray release];
+//    [favsArray release];
+//    [actionSheet release];
 }
 
 @end

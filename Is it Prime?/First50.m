@@ -29,9 +29,9 @@ HUDViewController *hVController;
 }
 
 - (void)dealloc{
-    [myTableView release];
-    [primesArray release];
-    [hVController release];
+//    [myTableView release];
+//    [primesArray release];
+//    [hVController release];
     
     [super dealloc];
 }

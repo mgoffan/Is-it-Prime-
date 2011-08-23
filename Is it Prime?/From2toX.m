@@ -31,11 +31,11 @@ HUDViewController *hVController;
 }
 
 - (void)dealloc {
-    [myTableView release];
-    [primesArray release];
-    [hVController release];
-    [myTextField release];
-    [result release];
+//    [myTableView release];
+//    [primesArray release];
+//    [hVController release];
+//    [myTextField release];
+//    [result release];
     
     [super dealloc];
 }
